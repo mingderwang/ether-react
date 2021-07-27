@@ -11,7 +11,7 @@ declare let window: any;
 export const ExampleComponent = ({ text }: Props) => {
   let sdk: Sdk
   const [val, setVal] = useState(0)
-  const [chainId, setChainId] = useState(-1)
+  const [chainId] = useState(-1)
   const [account, setAccount] = useState('👻');
 
   useEffect(() => {
@@ -28,19 +28,10 @@ export const ExampleComponent = ({ text }: Props) => {
           console.log(addr)
           console.log('AAAAxxx.signer ', signer)
           sdk = new Sdk(walletProvider)
-          const session = sdk.createSession()
-          console.log(session)
-          const { state } = sdk
-          console.log('contract account state', state);
-          setChainId(state.network.chainId)
-          const balance = await sdk.getAccountBalances({
-            tokens: ['0xc944e90c64b2c07662a292be6244bdf05cda44a7'],
-          });
-          console.log('balance', balance);
           const output = await sdk.syncAccount();
           console.log('account', output);
           setAccount(output.address)
-          
+         
         }
       })();
     }
@@ -54,7 +45,7 @@ export const ExampleComponent = ({ text }: Props) => {
   }, []);
 
   return <div className={styles.test}>
-    👑 Example Component: {text} {val} {account} chainId: 0x{chainId}
+    👑 Ethereum: {text} {val} {account} chainId: 0x{chainId}
   </div>
 }
 
