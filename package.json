@@ -68,5 +68,8 @@
     "etherspot": "^1.14.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
