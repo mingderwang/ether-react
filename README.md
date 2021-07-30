@@ -4,6 +4,9 @@
 
 [![NPM](https://img.shields.io/npm/v/ether-react.svg)](https://www.npmjs.com/package/ether-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## CLAIM
+Not production ready. Use on your own RISK!
+
 ## Create a new react app
 
 ```bash
