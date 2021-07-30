@@ -4,7 +4,7 @@
   "description": "metamask connect for dapp",
   "author": "Ming-der Wang",
   "license": "MIT",
-  "repository": "mingderwang/ether-reactt",
+  "repository": "mingderwang/ether-react",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -25,7 +25,7 @@
     "release": "yarn prepare && np"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^17.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",

@@ -1,13 +1,23 @@
-# my-crl
+# ether-react
 
 > Made with create-react-library
 
-[![NPM](https://img.shields.io/npm/v/my-crl.svg)](https://www.npmjs.com/package/my-crl) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/ether-react.svg)](https://www.npmjs.com/package/ether-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+## Create a new react app
+
+```bash
+npx create-react-app my-app
+cd my-app
+npm start
+```
+
+[refer to](https://reactjs.org/docs/create-a-new-react-app.html)
 
 ## Install
 
 ```bash
-npm install --save my-crl
+npm install --save ether-react
 ```
 
 ## Usage
@@ -15,8 +25,8 @@ npm install --save my-crl
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'my-crl'
-import 'my-crl/dist/index.css'
+import MyComponent from 'ether-react'
+import 'ether-react/dist/index.css'
 
 class Example extends Component {
   render() {
