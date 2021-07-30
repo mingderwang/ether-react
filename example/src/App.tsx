@@ -1,13 +1,12 @@
 import React from 'react'
 
-import { ExampleComponent, today } from 'ether-react'
-import 'ether-react/dist/index.css'
+import { ExampleComponent, today } from '@ether-react/contract'
+import '@ether-react/contract/dist/index.css'
 
 const App = () => {
   (async function run() {
     await today()
   })()
-  console.log(ExampleComponent)
   return <ExampleComponent text="CC- 😄" />
 }
 
