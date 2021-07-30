@@ -23,16 +23,16 @@ npm install --save ether-react
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'ether-react'
+import { ExampleComponent } from 'ether-react'
 import 'ether-react/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return <ExampleComponent text="DApp 🚀" />
 }
+
+export default App
 ```
 
 ## License
