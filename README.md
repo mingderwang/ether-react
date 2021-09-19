@@ -38,6 +38,25 @@ const App = () => {
 export default App
 ```
 
-## License
+# Feel free to fork and create your own
 
-MIT © [IPDID](https://github.com/IPDID)
+## Build Library from Source
+
+```
+yarn
+```
+then
+```
+yarn start
+```
+
+## Build and Run Example
+```
+cd example
+yarn
+yarn start
+```
+
+# License
+
+MIT © 2021 Ming-der Wang, [IPDID](https://github.com/IPDID)
